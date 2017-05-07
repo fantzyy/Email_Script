@@ -6,7 +6,7 @@ def Post_Email(content):
 	mail_host = 'smtp.qq.com'
     # Get_weather.Get_weather()
 	mail_user = '2413633136@qq.com'
-	mail_pass = 'zmcmljhprpehecag'
+	mail_pass = 'xxx'
 	sender = '2413633136@qq.com'
 	receivers = ['2413633136@qq.com']
 	message = MIMEText(content, 'plain', 'utf-8')
