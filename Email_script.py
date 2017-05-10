@@ -20,6 +20,8 @@ def Post_Email(content):
 		smtpObj.quit()
 	except smtplib.SMTPException as e:
 		print('error', e)
+if __name__=="__main__":
+	Post_Email("model test........")
 
 
 
